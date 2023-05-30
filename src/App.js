@@ -1,23 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
-
+//import logo from './logo.svg';
+//import './App.css';
+import FunctionComp from './Components\'/FunctionComp';
+import ClassComp from './Components\'/ClassComp';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1>Hello! Welcome to Cortouch Media</h1>
+      <h1>Learn Frontend Development from Cortouch Media</h1>
+      <FunctionComp></FunctionComp>
+      <ClassComp></ClassComp>
     </div>
   );
 }
